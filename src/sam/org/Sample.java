@@ -10,6 +10,13 @@ public class Sample {
 		a = a.concat(a1);
 
 		System.out.println(System.identityHashCode(a));
+		
+		System.out.println(System.identityHashCode(a));
+		System.out.println(System.identityHashCode(a));
+		System.out.println(System.identityHashCode(a));
+		System.out.println(System.identityHashCode(a));
+		
+		
 	}
 
 }
