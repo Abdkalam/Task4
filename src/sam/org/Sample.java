@@ -10,6 +10,9 @@ public class Sample {
 		a = a.concat(a1);
 
 		System.out.println(System.identityHashCode(a));
+		StringBuffer b= new StringBuffer ("apple");
+		StringBuffer b1 = new StringBuffer ("c");
+		System.out.println(System.identityHashCode(b));
 	}
 
 }
